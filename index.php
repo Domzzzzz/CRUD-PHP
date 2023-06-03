@@ -139,21 +139,21 @@ require 'includes/db-inc.php';
 					<div class="carousel" data-flickity='{ "autoPlay": true }'; >
 
 						  <div class="carousel-cell" auto-play >
-						  	<img src="ify/1.jpeg">
+						  	<img src="ify/1.jpg">
 						  </div>
 						  <div class="carousel-cell" auto-play>
-						  	<img src="ify/2.jpeg">
+						  	<img src="ify/2.jpg">
 
 						  </div>
 						  <div class="carousel-cell" auto-play>
-						  	 <img src="ify/3.jpeg">
+						  	 <img src="ify/3.jpg">
 						  </div>
 						  
 						  <div class="carousel-cell" auto-play >
-						  	<img src="ify/4.jpeg">
+						  	<img src="ify/4.jpg">
 						  </div>
 						   <div class="carousel-cell" auto-play>
-						  	<img src="ify/5.jpeg">
+						  	<img src="ify/5.jpg">
 						  </div>
 
 					</div>
@@ -262,22 +262,22 @@ require 'includes/db-inc.php';
 				<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<a href="#" class="thumbnail">
-						<img src="ify/9.jpeg">
+						<img src="ify/9.jpg">
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<a href="#" class="thumbnail">
-						<img src="ify/6.jpeg">
+						<img src="ify/6.jpg">
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<a href="#" class="thumbnail">
-						<img src="ify/7.jpeg">
+						<img src="ify/7.jpg">
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<a href="#" class="thumbnail">
-						<img src="ify/8.jpeg">
+						<img src="ify/8.jpg">
 					</a>
 				</div>
 			</div>

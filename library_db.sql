@@ -40,13 +40,9 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`adminId`, `adminName`, `password`, `username`, `email`, `photo`) VALUES
-(1, 'Nwachi', '1234', 'fozzy', 'fozzyington@gmail.com', '2086_1527169280.png'),
-(3, 'Vanessa Smith', '1234', 'smith', 'vanessa@gmail.com', 'posts-images/7197_1531096754.jpeg'),
-(4, 'Somto Aruonu', '1234', 'somatic', 'somygee@gmail.com', 'posts-images/2368_1531097680.jpeg'),
-(5, 'Jephthah Ugwuoke', '1234', 'jeph', 'jeph@gmail.com', 'posts-images/153114422990.jpeg'),
-(6, 'Ebenezer Bamination', '1234', 'eben', 'eben@gmail.com', 'posts-images/153114439974.jpeg'),
-(7, 'Ebuka Onyekwere', '1234', 'ebuka200', 'ebuka@gmail.com', 'posts-images/153139138928.jpeg'),
-(8, 'Ebuka Onyekwere', '1234', 'ebuka200', 'ebuka@gmail.com', 'posts-images/153139155541.jpeg');
+(1, 'John Dominic Nunez', '1234', 'nick', 'nunezdom58@gmail.com', 'posts-images/168572051852.png'),
+(2, 'Carl Angelo Abian', '1234', 'carl', 'carlabian@gmail.com', 'posts-images/168572056325.png'); 
+
 
 -- --------------------------------------------------------
 
@@ -70,10 +66,14 @@ CREATE TABLE `books` (
 -- Dumping data for table `books`
 --
 
-INSERT INTO `books` (`bookId`, `bookTitle`, `author`, `ISBN`, `bookCopies`, `publisherName`, `available`, `categories`, `callNumber`) VALUES
-(5, 'How to Become a Billionaire', 'James Flitch', '1900-124-3242', '30', 'Robert Muller', 'YES', 'Morals', '0902334'),
-(6, 'Oliver Twist', 'Charles Dickey', '123-423-4-13', '12', 'African Books.Inc', 'YES', 'Fairy Tail', '0216230.'),
-(7, 'Death of a million starts', 'Breakthrough', '123', '3', 'Rexxon', 'YES', '123', '12');
+INSERT INTO `books` (`bookId`, `bookTitle`, `author`, `ISBN`, `bookCopies`, `publisherName`, `available`, `categories`, `callNumber`) 
+VALUES
+(5151, 'Harry Potter and Philosophers Stone', 'J.K. Rowling', '1900-124-3242', '30', 'Bloosbury', 'YES', 'Adventure', '0902334'),
+(5152, 'A Game of Thrones', 'George R.R. Martin', '102-323-123', '8', 'Bantam Spectra', 'YES', 'Fantasy', '1273847'),
+(5153, 'The Secret Life of Romer', 'Nino Barzaga', '625-212-212', '50', 'Kap INC.', 'YES', 'Horror', '1845637'),
+(5154, 'Fifty Shades of Gray', 'E.J. James', '121-217-122', '15', 'Vintage Books', 'YES', 'Romance', '76429018'),
+(5155, 'Fifty Shades of Gray', 'James Dashner', '328-121-321', '30', 'Delacorte Press', 'YES', 'Adventure', '8748372');
+
 
 -- --------------------------------------------------------
 
@@ -116,7 +116,7 @@ INSERT INTO `news` (`newsId`, `announcement`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `students`
+-- -- Table structure for table `students`
 --
 
 CREATE TABLE `students` (
@@ -133,13 +133,16 @@ CREATE TABLE `students` (
   `name` varchar(60) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+
 --
 -- Dumping data for table `students`
 --
 
 INSERT INTO `students` (`studentId`, `matric_no`, `password`, `username`, `email`, `dept`, `numOfBooks`, `moneyOwed`, `photo`, `phoneNumber`, `name`) VALUES
-(1, 'ADSE-9835', '1234', 'bams', 'fuzzy245.in@gmail.com', 'Software Engineering', 2, '1500', '4477_1526321327.jpeg', '08124579655', 'Nwachinemere Ibeagi'),
-(2, 'ADSE-9835', '1234', 'somty', 'somygee@gmail.com', 'Software Engineering', 2, '1234', '2093_1531223199.jpeg', '08124578966', 'Somtochukwu Ugwu');
+(1, 'ABCD-9483', '1234', 'bayz', 'bayzaaljohn18@gmail.com', 'App Development', 3, '1500', '4069_1685719735.jpeg', '09556457891', 'Aljohn Bayza'),
+(2, 'ABCD-5756', '1234', 'romer', 'romerfrancisco08@gmail.com', 'Software Engineering', 5, '1234', '5932_1685720044.jpeg', '09657831788', 'Romer Francisco'),
+(3, 'ABCD-9453', '1234', 'jero', 'roxasjeco@gmail.com', 'Software Engineering', 2, '1500', '1777_1685720190.jpeg', '09124579655', 'Jeco Roxas'),
+(4, 'ABCD-8565', '1234', 'fabs', 'fabiajrey08@gmail.com', 'App Development', 8, '1234', '6950_1685720394.jpeg', '09124578966', 'John Rey Fabia');
 
 --
 -- Indexes for dumped tables
