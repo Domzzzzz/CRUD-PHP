@@ -72,7 +72,7 @@ VALUES
 (5152, 'A Game of Thrones', 'George R.R. Martin', '102-323-123', '8', 'Bantam Spectra', 'YES', 'Fantasy', '1273847'),
 (5153, 'The Secret Life of Romer', 'Nino Barzaga', '625-212-212', '50', 'Kap INC.', 'YES', 'Horror', '1845637'),
 (5154, 'Fifty Shades of Gray', 'E.J. James', '121-217-122', '15', 'Vintage Books', 'YES', 'Romance', '76429018'),
-(5155, 'Fifty Shades of Gray', 'James Dashner', '328-121-321', '30', 'Delacorte Press', 'YES', 'Adventure', '8748372');
+(5155, 'The Maze Runner', 'James Dashner', '328-121-321', '30', 'Delacorte Press', 'YES', 'Adventure', '8748372');
 
 
 -- --------------------------------------------------------
@@ -109,9 +109,9 @@ CREATE TABLE `news` (
 --
 
 INSERT INTO `news` (`newsId`, `announcement`) VALUES
-(1, 'Welcome to Our Online Library Management System. You can have access to all our e-books at a really good affordable price!'),
-(6, 'Man don''t dance'),
-(9, 'Godfrey Okoye is going Places');
+(1, 'Welcome to Our Online Library Management System. You can have access to all our e-books anytime you want. Enjoy!'),
+(6, 'Harry Potter and Philosophers Stone'),
+(9, 'A Game of Thrones');
 
 -- --------------------------------------------------------
 
